@@ -2,6 +2,8 @@ const path = require('path')
 
 // 拼接规范的绝对路径 常用
 console.log(path.resolve(__dirname, './index.html'))
+console.log(path.resolve(__dirname, 'index.html'))
+console.log(path.resolve(__dirname, '/index.html'))
 
 // 获取操作系统的路径分隔符
 console.log(path.sep)
