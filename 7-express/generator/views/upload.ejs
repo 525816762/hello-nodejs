@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件上传</title>
+</head>
+<body>
+    <h2>文件上传</h2>
+    <!--                                 文件上传必须加的属性 不加的话只会上传文件名称 -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="text" name="name">
+        <input type="file" name="file" id="">
+        <button>点击提交</button>
+    </form>
+</body>
+</html>
